@@ -1,1 +1,1 @@
-# Learning by Self-explaining (LSX)
+# Learning by Self-Explaining (LSX)
