@@ -1,0 +1,3 @@
+kp1(X):-in(O1,X),in(O2,X),size(O1,large),shape(O1,cube),size(O2,large),shape(O2,cylinder).
+kp2(X):-in(O1,X),in(O2,X),material(O1,metal),material(O2,metal),shape(O1,cube),size(O1,small),size(O2,small).
+kp3(X):-color(O1,blue),color(O2,yellow),in(O1,X),in(O2,X),shape(O1,sphere),shape(O2,sphere),size(O1,large),size(O2,small).

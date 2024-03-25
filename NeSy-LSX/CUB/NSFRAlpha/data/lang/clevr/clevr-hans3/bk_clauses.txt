@@ -1,0 +1,12 @@
+kp1n(X):-in(O1,X),color(O1,gray).
+kp1n(X):-in(O1,X),color(O1,blue).
+kp1n(X):-in(O1,X),color(O1,yellow).
+kp1n(X):-in(O1,X),color(O1,red).
+kp1n(X):-in(O1,X),color(O1,green).
+kp1n(X):-in(O1,X),color(O1,brown).
+kp1n(X):-in(O1,X),color(O1,purple).
+kp1n(X):-in(O1,X),color(O1,cyan).
+kp1n(X):-in(O1,X),shape(O1,sphere).
+kp1n(X):-in(O1,X),size(O1,small).
+kp1n(X):-in(O1,X),material(O1,metal).
+kp1n(X):-in(O1,X),material(O1,rubber).

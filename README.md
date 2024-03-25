@@ -1,5 +1,5 @@
 # Learning by Self-Explaining
-Repository for Learning by Self-Explaining paper.
+Repository for ```Learning by Self-Explaining``` paper.
 
 ![Learning by Self-Explaining (LSX)](figures/main_fig.png "Learning by Self-Explaining")
 
