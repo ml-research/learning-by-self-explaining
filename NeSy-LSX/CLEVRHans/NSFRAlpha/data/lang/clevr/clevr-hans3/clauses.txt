@@ -1,0 +1,3 @@
+kp1(X):-in(O1,X).
+kp2(X):-in(O1,X).
+kp3(X):-in(O1,X).

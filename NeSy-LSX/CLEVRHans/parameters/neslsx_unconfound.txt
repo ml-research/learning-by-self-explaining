@@ -1,0 +1,41 @@
+
+name: src_rrr-conf_3-rnum15-1.0
+mode: train
+dataset: unconfound
+resume: None
+num: 15
+seed: 0
+lsx_iters: 1
+epochs: 100
+expl_epochs: 300
+lr: 0.001
+lexpl_reg: 0.0
+l1_reg: 0.0
+logic_batch_size: 16
+batch_size: 32
+reflect_trainset: False
+num_workers: 0
+topk: 20
+unconfound_n_samples_per_class: 50
+no_cuda: False
+multi_gpu: False
+perc: 1.0
+prop_thresh: 0.5
+data_dir: /workspace/datasets-local/Clevr_Hans/conf_3/
+fp_ckpt: None
+n_slots: 10
+n_iters_slot_att: 3
+n_attr: 18
+m: 3
+gamma: 0.01
+n_heads: 4
+set_transf_hidden: 128
+dataset_type: clevr
+conf_version: conf_3
+device: cuda
+init_topk: 20
+n_imgclasses: 3
+class_weights: tensor([0.33333, 0.33333, 0.33333])
+classes: [0 1 2]
+category_ids: [ 3  6  8 10 18]
+log_dir: runs/conf_3/src_rrr-conf_3-rnum15-1.0_seed0

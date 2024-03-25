@@ -1,0 +1,19 @@
+version: '2.3'
+services:
+  pytorch-lsx:
+    container_name: pytorch-lsx
+    image: pytorch-lsx
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+    ports:
+      - "8010:8010"
+    stdin_open: true
+    tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+          - driver: nvidia
+            capabilities: [gpu]

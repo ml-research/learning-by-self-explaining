@@ -1,0 +1,20 @@
+torchvision~=0.12.0
+torch~=1.11.0
+matplotlib
+numpy
+tensorboard
+
+typed-argument-parser~=1.7.2
+# argparse~=1.4.0
+
+streamlit~=1.1.0
+
+seaborn~=0.11.2
+umap-learn
+pytest
+rtpt
+medmnist
+Pillow==9.5.0
+
+lark
+torchsummary

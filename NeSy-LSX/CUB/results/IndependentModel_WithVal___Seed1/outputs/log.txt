@@ -1,0 +1,359 @@
+Namespace(attr_loss_weight=1.0, batch_size=64, bottleneck=False, ckpt=False, data_dir='/workspace/repositories/SelfReflectiveCoder_CUB/CUB_processed/class_filtered_10_DS', dataset='cub', dataset_type='cub', device=device(type='cuda'), end2end=False, epochs=500, exp='Independent_CtoY', expl_epochs=10, fp_cat_attr_dict=None, fp_ckpt=None, gamma=0.01, image_dir='images', lexpl_reg=10, log_dir='results/IndependentModel_WithVal___Seed1/outputs', logic_batch_size=32, lr=0.001, m=1, max_n_atoms_per_clause=0, n_attributes=112, n_imgclasses=200, no_cuda=False, no_img=True, normalize_loss=False, num=1, optimizer='sgd', perc=1.0, pretrained=False, prop_thresh=0.25, save_step=1000, scheduler_step=1000, seed=1, srl_iters=1, topk=5, use_attr=True, use_aux=False, use_relu=False, use_sigmoid=False, weight_decay=5e-05, weighted_loss='')
+None
+train data path: /workspace/repositories/SelfReflectiveCoder_CUB/CUB_processed/class_filtered_10_DS/train.pkl
+New model best model at epoch 0
+Epoch [0]:	Train loss: 5.3021	Train accuracy: 0.3958	Val loss: 5.2650	Val acc: 0.9046	Best val epoch: 0
+New model best model at epoch 1
+Epoch [1]:	Train loss: 5.2446	Train accuracy: 1.4819	Val loss: 5.2109	Val acc: 1.6447	Best val epoch: 1
+Epoch [2]:	Train loss: 5.1867	Train accuracy: 2.0847	Val loss: 5.1570	Val acc: 1.6447	Best val epoch: 1
+New model best model at epoch 3
+Epoch [3]:	Train loss: 5.1294	Train accuracy: 2.9597	Val loss: 5.1036	Val acc: 3.1572	Best val epoch: 3
+New model best model at epoch 4
+Epoch [4]:	Train loss: 5.0726	Train accuracy: 4.0667	Val loss: 5.0507	Val acc: 5.1952	Best val epoch: 4
+New model best model at epoch 5
+Epoch [5]:	Train loss: 5.0164	Train accuracy: 6.8611	Val loss: 4.9981	Val acc: 6.9043	Best val epoch: 5
+New model best model at epoch 6
+Epoch [6]:	Train loss: 4.9603	Train accuracy: 8.9028	Val loss: 4.9460	Val acc: 7.8411	Best val epoch: 6
+New model best model at epoch 7
+Epoch [7]:	Train loss: 4.9050	Train accuracy: 11.1944	Val loss: 4.8942	Val acc: 10.4369	Best val epoch: 7
+New model best model at epoch 8
+Epoch [8]:	Train loss: 4.8502	Train accuracy: 14.6819	Val loss: 4.8431	Val acc: 16.0433	Best val epoch: 8
+New model best model at epoch 9
+Epoch [9]:	Train loss: 4.7958	Train accuracy: 20.1028	Val loss: 4.7922	Val acc: 19.9406	Best val epoch: 9
+New model best model at epoch 10
+Epoch [10]:	Train loss: 4.7419	Train accuracy: 26.1861	Val loss: 4.7421	Val acc: 23.6234	Best val epoch: 10
+New model best model at epoch 11
+Epoch [11]:	Train loss: 4.6884	Train accuracy: 30.3556	Val loss: 4.6917	Val acc: 27.9140	Best val epoch: 11
+New model best model at epoch 12
+Epoch [12]:	Train loss: 4.6355	Train accuracy: 35.2417	Val loss: 4.6422	Val acc: 30.7566	Best val epoch: 12
+New model best model at epoch 13
+Epoch [13]:	Train loss: 4.5829	Train accuracy: 38.6208	Val loss: 4.5927	Val acc: 36.9887	Best val epoch: 13
+New model best model at epoch 14
+Epoch [14]:	Train loss: 4.5311	Train accuracy: 45.0764	Val loss: 4.5439	Val acc: 42.7775	Best val epoch: 14
+New model best model at epoch 15
+Epoch [15]:	Train loss: 4.4795	Train accuracy: 49.7306	Val loss: 4.4955	Val acc: 46.7892	Best val epoch: 15
+New model best model at epoch 16
+Epoch [16]:	Train loss: 4.4282	Train accuracy: 54.6569	Val loss: 4.4476	Val acc: 53.1679	Best val epoch: 16
+New model best model at epoch 17
+Epoch [17]:	Train loss: 4.3776	Train accuracy: 58.9486	Val loss: 4.3999	Val acc: 55.4705	Best val epoch: 17
+New model best model at epoch 18
+Epoch [18]:	Train loss: 4.3274	Train accuracy: 61.5278	Val loss: 4.3528	Val acc: 58.6599	Best val epoch: 18
+New model best model at epoch 19
+Epoch [19]:	Train loss: 4.2776	Train accuracy: 67.2611	Val loss: 4.3056	Val acc: 62.9183	Best val epoch: 19
+New model best model at epoch 20
+Epoch [20]:	Train loss: 4.2283	Train accuracy: 69.7222	Val loss: 4.2592	Val acc: 64.1018	Best val epoch: 20
+New model best model at epoch 21
+Epoch [21]:	Train loss: 4.1795	Train accuracy: 71.1278	Val loss: 4.2130	Val acc: 65.3354	Best val epoch: 21
+New model best model at epoch 22
+Epoch [22]:	Train loss: 4.1310	Train accuracy: 72.3750	Val loss: 4.1675	Val acc: 67.9491	Best val epoch: 22
+New model best model at epoch 23
+Epoch [23]:	Train loss: 4.0830	Train accuracy: 74.6222	Val loss: 4.1219	Val acc: 69.8727	Best val epoch: 23
+New model best model at epoch 24
+Epoch [24]:	Train loss: 4.0354	Train accuracy: 77.1528	Val loss: 4.0770	Val acc: 71.1063	Best val epoch: 24
+New model best model at epoch 25
+Epoch [25]:	Train loss: 3.9884	Train accuracy: 77.8139	Val loss: 4.0320	Val acc: 71.8464	Best val epoch: 25
+New model best model at epoch 26
+Epoch [26]:	Train loss: 3.9417	Train accuracy: 79.2972	Val loss: 3.9879	Val acc: 73.4089	Best val epoch: 26
+New model best model at epoch 27
+Epoch [27]:	Train loss: 3.8955	Train accuracy: 80.4597	Val loss: 3.9441	Val acc: 74.5102	Best val epoch: 27
+Epoch [28]:	Train loss: 3.8497	Train accuracy: 80.7167	Val loss: 3.9006	Val acc: 74.5102	Best val epoch: 27
+New model best model at epoch 29
+Epoch [29]:	Train loss: 3.8044	Train accuracy: 81.4486	Val loss: 3.8575	Val acc: 76.5661	Best val epoch: 29
+Epoch [30]:	Train loss: 3.7594	Train accuracy: 81.6486	Val loss: 3.8148	Val acc: 75.9082	Best val epoch: 29
+Epoch [31]:	Train loss: 3.7150	Train accuracy: 81.9417	Val loss: 3.7721	Val acc: 76.3194	Best val epoch: 29
+New model best model at epoch 32
+Epoch [32]:	Train loss: 3.6709	Train accuracy: 83.6528	Val loss: 3.7302	Val acc: 79.4765	Best val epoch: 32
+New model best model at epoch 33
+Epoch [33]:	Train loss: 3.6273	Train accuracy: 84.6986	Val loss: 3.6887	Val acc: 79.7233	Best val epoch: 33
+New model best model at epoch 34
+Epoch [34]:	Train loss: 3.5841	Train accuracy: 85.6570	Val loss: 3.6474	Val acc: 80.7101	Best val epoch: 34
+New model best model at epoch 35
+Epoch [35]:	Train loss: 3.5412	Train accuracy: 85.6153	Val loss: 3.6063	Val acc: 81.2035	Best val epoch: 35
+New model best model at epoch 36
+Epoch [36]:	Train loss: 3.4989	Train accuracy: 86.4875	Val loss: 3.5660	Val acc: 82.3870	Best val epoch: 36
+New model best model at epoch 37
+Epoch [37]:	Train loss: 3.4571	Train accuracy: 88.3639	Val loss: 3.5258	Val acc: 83.5383	Best val epoch: 37
+New model best model at epoch 38
+Epoch [38]:	Train loss: 3.4156	Train accuracy: 88.6403	Val loss: 3.4860	Val acc: 84.9364	Best val epoch: 38
+Epoch [39]:	Train loss: 3.3745	Train accuracy: 89.4306	Val loss: 3.4465	Val acc: 84.9364	Best val epoch: 38
+Epoch [40]:	Train loss: 3.3339	Train accuracy: 89.1208	Val loss: 3.4074	Val acc: 84.9364	Best val epoch: 38
+New model best model at epoch 41
+Epoch [41]:	Train loss: 3.2936	Train accuracy: 89.6389	Val loss: 3.3688	Val acc: 85.2653	Best val epoch: 41
+New model best model at epoch 42
+Epoch [42]:	Train loss: 3.2540	Train accuracy: 90.2403	Val loss: 3.3303	Val acc: 86.2843	Best val epoch: 42
+New model best model at epoch 43
+Epoch [43]:	Train loss: 3.2145	Train accuracy: 90.9764	Val loss: 3.2922	Val acc: 86.7777	Best val epoch: 43
+New model best model at epoch 44
+Epoch [44]:	Train loss: 3.1756	Train accuracy: 91.7889	Val loss: 3.2547	Val acc: 87.1889	Best val epoch: 44
+Epoch [45]:	Train loss: 3.1370	Train accuracy: 91.9944	Val loss: 3.2173	Val acc: 87.1889	Best val epoch: 44
+Epoch [46]:	Train loss: 3.0989	Train accuracy: 91.5819	Val loss: 3.1803	Val acc: 87.1889	Best val epoch: 44
+New model best model at epoch 47
+Epoch [47]:	Train loss: 3.0614	Train accuracy: 92.1792	Val loss: 3.1439	Val acc: 87.7646	Best val epoch: 47
+New model best model at epoch 48
+Epoch [48]:	Train loss: 3.0239	Train accuracy: 92.2042	Val loss: 3.1077	Val acc: 88.1758	Best val epoch: 48
+Epoch [49]:	Train loss: 2.9874	Train accuracy: 92.3861	Val loss: 3.0719	Val acc: 88.1758	Best val epoch: 48
+Epoch [50]:	Train loss: 2.9507	Train accuracy: 92.9944	Val loss: 3.0363	Val acc: 88.1758	Best val epoch: 48
+New model best model at epoch 51
+Epoch [51]:	Train loss: 2.9149	Train accuracy: 92.9306	Val loss: 3.0014	Val acc: 88.9981	Best val epoch: 51
+New model best model at epoch 52
+Epoch [52]:	Train loss: 2.8793	Train accuracy: 93.3500	Val loss: 2.9665	Val acc: 89.9027	Best val epoch: 52
+Epoch [53]:	Train loss: 2.8441	Train accuracy: 93.8069	Val loss: 2.9322	Val acc: 89.9027	Best val epoch: 52
+Epoch [54]:	Train loss: 2.8092	Train accuracy: 94.1194	Val loss: 2.8983	Val acc: 89.9027	Best val epoch: 52
+Epoch [55]:	Train loss: 2.7750	Train accuracy: 93.9319	Val loss: 2.8644	Val acc: 89.9027	Best val epoch: 52
+New model best model at epoch 56
+Epoch [56]:	Train loss: 2.7410	Train accuracy: 94.0764	Val loss: 2.8311	Val acc: 91.3008	Best val epoch: 56
+New model best model at epoch 57
+Epoch [57]:	Train loss: 2.7075	Train accuracy: 95.0347	Val loss: 2.7983	Val acc: 91.8764	Best val epoch: 57
+Epoch [58]:	Train loss: 2.6742	Train accuracy: 94.8667	Val loss: 2.7655	Val acc: 91.8764	Best val epoch: 57
+New model best model at epoch 59
+Epoch [59]:	Train loss: 2.6414	Train accuracy: 95.2903	Val loss: 2.7334	Val acc: 92.5343	Best val epoch: 59
+Epoch [60]:	Train loss: 2.6092	Train accuracy: 95.6444	Val loss: 2.7013	Val acc: 92.5343	Best val epoch: 59
+Epoch [61]:	Train loss: 2.5772	Train accuracy: 95.6417	Val loss: 2.6698	Val acc: 92.5343	Best val epoch: 59
+New model best model at epoch 62
+Epoch [62]:	Train loss: 2.5456	Train accuracy: 95.6417	Val loss: 2.6386	Val acc: 93.3567	Best val epoch: 62
+Epoch [63]:	Train loss: 2.5143	Train accuracy: 96.0611	Val loss: 2.6079	Val acc: 93.3567	Best val epoch: 62
+Epoch [64]:	Train loss: 2.4838	Train accuracy: 96.0556	Val loss: 2.5775	Val acc: 93.3567	Best val epoch: 62
+Epoch [65]:	Train loss: 2.4534	Train accuracy: 96.0556	Val loss: 2.5473	Val acc: 93.3567	Best val epoch: 62
+Epoch [66]:	Train loss: 2.4234	Train accuracy: 96.0597	Val loss: 2.5174	Val acc: 93.3567	Best val epoch: 62
+Epoch [67]:	Train loss: 2.3939	Train accuracy: 96.0611	Val loss: 2.4880	Val acc: 93.3567	Best val epoch: 62
+Epoch [68]:	Train loss: 2.3646	Train accuracy: 96.0569	Val loss: 2.4591	Val acc: 93.3567	Best val epoch: 62
+Epoch [69]:	Train loss: 2.3358	Train accuracy: 96.0611	Val loss: 2.4301	Val acc: 93.3567	Best val epoch: 62
+Epoch [70]:	Train loss: 2.3074	Train accuracy: 96.1611	Val loss: 2.4017	Val acc: 93.3567	Best val epoch: 62
+New model best model at epoch 71
+Epoch [71]:	Train loss: 2.2792	Train accuracy: 96.1861	Val loss: 2.3737	Val acc: 94.1290	Best val epoch: 71
+Epoch [72]:	Train loss: 2.2518	Train accuracy: 96.4986	Val loss: 2.3462	Val acc: 94.1290	Best val epoch: 71
+New model best model at epoch 73
+Epoch [73]:	Train loss: 2.2245	Train accuracy: 96.8931	Val loss: 2.3187	Val acc: 94.8691	Best val epoch: 73
+Epoch [74]:	Train loss: 2.1974	Train accuracy: 96.9347	Val loss: 2.2918	Val acc: 94.8691	Best val epoch: 73
+Epoch [75]:	Train loss: 2.1707	Train accuracy: 96.9375	Val loss: 2.2649	Val acc: 94.8691	Best val epoch: 73
+Epoch [76]:	Train loss: 2.1447	Train accuracy: 96.9889	Val loss: 2.2386	Val acc: 94.8691	Best val epoch: 73
+Epoch [77]:	Train loss: 2.1188	Train accuracy: 96.9333	Val loss: 2.2126	Val acc: 94.8691	Best val epoch: 73
+Epoch [78]:	Train loss: 2.0931	Train accuracy: 96.9361	Val loss: 2.1868	Val acc: 94.8691	Best val epoch: 73
+New model best model at epoch 79
+Epoch [79]:	Train loss: 2.0682	Train accuracy: 96.9375	Val loss: 2.1615	Val acc: 95.4448	Best val epoch: 79
+Epoch [80]:	Train loss: 2.0434	Train accuracy: 97.1875	Val loss: 2.1364	Val acc: 95.4448	Best val epoch: 79
+Epoch [81]:	Train loss: 2.0190	Train accuracy: 97.4153	Val loss: 2.1117	Val acc: 95.4448	Best val epoch: 79
+Epoch [82]:	Train loss: 1.9947	Train accuracy: 97.4167	Val loss: 2.0872	Val acc: 95.4448	Best val epoch: 79
+Epoch [83]:	Train loss: 1.9710	Train accuracy: 97.4167	Val loss: 2.0631	Val acc: 95.4448	Best val epoch: 79
+Epoch [84]:	Train loss: 1.9477	Train accuracy: 97.4153	Val loss: 2.0393	Val acc: 95.4448	Best val epoch: 79
+Epoch [85]:	Train loss: 1.9246	Train accuracy: 97.4153	Val loss: 2.0160	Val acc: 95.4448	Best val epoch: 79
+Epoch [86]:	Train loss: 1.9017	Train accuracy: 97.4167	Val loss: 1.9928	Val acc: 95.4448	Best val epoch: 79
+Epoch [87]:	Train loss: 1.8793	Train accuracy: 97.4125	Val loss: 1.9700	Val acc: 95.4448	Best val epoch: 79
+Epoch [88]:	Train loss: 1.8573	Train accuracy: 97.4153	Val loss: 1.9475	Val acc: 95.4448	Best val epoch: 79
+Epoch [89]:	Train loss: 1.8355	Train accuracy: 97.4139	Val loss: 1.9253	Val acc: 95.4448	Best val epoch: 79
+Epoch [90]:	Train loss: 1.8140	Train accuracy: 97.4153	Val loss: 1.9034	Val acc: 95.4448	Best val epoch: 79
+Epoch [91]:	Train loss: 1.7929	Train accuracy: 97.5403	Val loss: 1.8818	Val acc: 95.4448	Best val epoch: 79
+New model best model at epoch 92
+Epoch [92]:	Train loss: 1.7722	Train accuracy: 97.4569	Val loss: 1.8605	Val acc: 96.1849	Best val epoch: 92
+Epoch [93]:	Train loss: 1.7514	Train accuracy: 97.8542	Val loss: 1.8394	Val acc: 96.1849	Best val epoch: 92
+Epoch [94]:	Train loss: 1.7312	Train accuracy: 97.8542	Val loss: 1.8186	Val acc: 96.1849	Best val epoch: 92
+Epoch [95]:	Train loss: 1.7113	Train accuracy: 97.8514	Val loss: 1.7982	Val acc: 96.1849	Best val epoch: 92
+Epoch [96]:	Train loss: 1.6917	Train accuracy: 97.8486	Val loss: 1.7780	Val acc: 96.1849	Best val epoch: 92
+Epoch [97]:	Train loss: 1.6722	Train accuracy: 97.9375	Val loss: 1.7580	Val acc: 96.1849	Best val epoch: 92
+New model best model at epoch 98
+Epoch [98]:	Train loss: 1.6532	Train accuracy: 98.0194	Val loss: 1.7382	Val acc: 96.6783	Best val epoch: 98
+Epoch [99]:	Train loss: 1.6345	Train accuracy: 97.9986	Val loss: 1.7191	Val acc: 96.6783	Best val epoch: 98
+Epoch [100]:	Train loss: 1.6159	Train accuracy: 98.3736	Val loss: 1.7001	Val acc: 96.6783	Best val epoch: 98
+Epoch [101]:	Train loss: 1.5977	Train accuracy: 98.3333	Val loss: 1.6811	Val acc: 96.6783	Best val epoch: 98
+Epoch [102]:	Train loss: 1.5797	Train accuracy: 98.6028	Val loss: 1.6627	Val acc: 96.6783	Best val epoch: 98
+New model best model at epoch 103
+Epoch [103]:	Train loss: 1.5620	Train accuracy: 98.8542	Val loss: 1.6444	Val acc: 97.3684	Best val epoch: 103
+New model best model at epoch 104
+Epoch [104]:	Train loss: 1.5445	Train accuracy: 99.1667	Val loss: 1.6262	Val acc: 98.1908	Best val epoch: 104
+Epoch [105]:	Train loss: 1.5273	Train accuracy: 99.2083	Val loss: 1.6087	Val acc: 98.1908	Best val epoch: 104
+Epoch [106]:	Train loss: 1.5104	Train accuracy: 99.2083	Val loss: 1.5910	Val acc: 98.1908	Best val epoch: 104
+Epoch [107]:	Train loss: 1.4938	Train accuracy: 99.2069	Val loss: 1.5737	Val acc: 98.1908	Best val epoch: 104
+Epoch [108]:	Train loss: 1.4773	Train accuracy: 99.2056	Val loss: 1.5567	Val acc: 98.1908	Best val epoch: 104
+Epoch [109]:	Train loss: 1.4614	Train accuracy: 99.2083	Val loss: 1.5402	Val acc: 98.1908	Best val epoch: 104
+Epoch [110]:	Train loss: 1.4452	Train accuracy: 99.2069	Val loss: 1.5235	Val acc: 98.1908	Best val epoch: 104
+Epoch [111]:	Train loss: 1.4294	Train accuracy: 99.2083	Val loss: 1.5072	Val acc: 98.1908	Best val epoch: 104
+Epoch [112]:	Train loss: 1.4141	Train accuracy: 99.2083	Val loss: 1.4912	Val acc: 98.1908	Best val epoch: 104
+Epoch [113]:	Train loss: 1.3987	Train accuracy: 99.2069	Val loss: 1.4753	Val acc: 98.1908	Best val epoch: 104
+Epoch [114]:	Train loss: 1.3838	Train accuracy: 99.2069	Val loss: 1.4596	Val acc: 98.1908	Best val epoch: 104
+Epoch [115]:	Train loss: 1.3691	Train accuracy: 99.2069	Val loss: 1.4442	Val acc: 98.1908	Best val epoch: 104
+Epoch [116]:	Train loss: 1.3543	Train accuracy: 99.2083	Val loss: 1.4291	Val acc: 98.1908	Best val epoch: 104
+Epoch [117]:	Train loss: 1.3400	Train accuracy: 99.2056	Val loss: 1.4140	Val acc: 98.1908	Best val epoch: 104
+Epoch [118]:	Train loss: 1.3260	Train accuracy: 99.2069	Val loss: 1.3995	Val acc: 98.1908	Best val epoch: 104
+Epoch [119]:	Train loss: 1.3120	Train accuracy: 99.2069	Val loss: 1.3848	Val acc: 98.1908	Best val epoch: 104
+Epoch [120]:	Train loss: 1.2983	Train accuracy: 99.2083	Val loss: 1.3707	Val acc: 98.1908	Best val epoch: 104
+Epoch [121]:	Train loss: 1.2847	Train accuracy: 99.2083	Val loss: 1.3564	Val acc: 98.1908	Best val epoch: 104
+Epoch [122]:	Train loss: 1.2716	Train accuracy: 99.2083	Val loss: 1.3425	Val acc: 98.1908	Best val epoch: 104
+Epoch [123]:	Train loss: 1.2583	Train accuracy: 99.2083	Val loss: 1.3288	Val acc: 98.1908	Best val epoch: 104
+Epoch [124]:	Train loss: 1.2455	Train accuracy: 99.2069	Val loss: 1.3153	Val acc: 98.1908	Best val epoch: 104
+Epoch [125]:	Train loss: 1.2329	Train accuracy: 99.2083	Val loss: 1.3020	Val acc: 98.1908	Best val epoch: 104
+Epoch [126]:	Train loss: 1.2203	Train accuracy: 99.2069	Val loss: 1.2889	Val acc: 98.1908	Best val epoch: 104
+Epoch [127]:	Train loss: 1.2080	Train accuracy: 99.2083	Val loss: 1.2759	Val acc: 98.1908	Best val epoch: 104
+Epoch [128]:	Train loss: 1.1957	Train accuracy: 99.2083	Val loss: 1.2631	Val acc: 98.1908	Best val epoch: 104
+Epoch [129]:	Train loss: 1.1838	Train accuracy: 99.2069	Val loss: 1.2505	Val acc: 98.1908	Best val epoch: 104
+Epoch [130]:	Train loss: 1.1718	Train accuracy: 99.2083	Val loss: 1.2381	Val acc: 98.1908	Best val epoch: 104
+Epoch [131]:	Train loss: 1.1603	Train accuracy: 99.2069	Val loss: 1.2259	Val acc: 98.1908	Best val epoch: 104
+Epoch [132]:	Train loss: 1.1488	Train accuracy: 99.2083	Val loss: 1.2139	Val acc: 98.1908	Best val epoch: 104
+Epoch [133]:	Train loss: 1.1374	Train accuracy: 99.2083	Val loss: 1.2021	Val acc: 98.1908	Best val epoch: 104
+Epoch [134]:	Train loss: 1.1263	Train accuracy: 99.2083	Val loss: 1.1903	Val acc: 98.1908	Best val epoch: 104
+Epoch [135]:	Train loss: 1.1152	Train accuracy: 99.2083	Val loss: 1.1787	Val acc: 98.1908	Best val epoch: 104
+Epoch [136]:	Train loss: 1.1045	Train accuracy: 99.2069	Val loss: 1.1674	Val acc: 98.1908	Best val epoch: 104
+Epoch [137]:	Train loss: 1.0939	Train accuracy: 99.2069	Val loss: 1.1563	Val acc: 98.1908	Best val epoch: 104
+Epoch [138]:	Train loss: 1.0833	Train accuracy: 99.2083	Val loss: 1.1450	Val acc: 98.1908	Best val epoch: 104
+Epoch [139]:	Train loss: 1.0731	Train accuracy: 99.2083	Val loss: 1.1342	Val acc: 98.1908	Best val epoch: 104
+Epoch [140]:	Train loss: 1.0629	Train accuracy: 99.2083	Val loss: 1.1235	Val acc: 98.1908	Best val epoch: 104
+Epoch [141]:	Train loss: 1.0527	Train accuracy: 99.2069	Val loss: 1.1129	Val acc: 98.1908	Best val epoch: 104
+Epoch [142]:	Train loss: 1.0428	Train accuracy: 99.2083	Val loss: 1.1024	Val acc: 98.1908	Best val epoch: 104
+Epoch [143]:	Train loss: 1.0332	Train accuracy: 99.2083	Val loss: 1.0922	Val acc: 98.1908	Best val epoch: 104
+Epoch [144]:	Train loss: 1.0235	Train accuracy: 99.2083	Val loss: 1.0820	Val acc: 98.1908	Best val epoch: 104
+Epoch [145]:	Train loss: 1.0140	Train accuracy: 99.2083	Val loss: 1.0721	Val acc: 98.1908	Best val epoch: 104
+Epoch [146]:	Train loss: 1.0047	Train accuracy: 99.2056	Val loss: 1.0621	Val acc: 98.1908	Best val epoch: 104
+Epoch [147]:	Train loss: 0.9955	Train accuracy: 99.2083	Val loss: 1.0525	Val acc: 98.1908	Best val epoch: 104
+Epoch [148]:	Train loss: 0.9863	Train accuracy: 99.2083	Val loss: 1.0429	Val acc: 98.1908	Best val epoch: 104
+Epoch [149]:	Train loss: 0.9774	Train accuracy: 99.2083	Val loss: 1.0334	Val acc: 98.1908	Best val epoch: 104
+Epoch [150]:	Train loss: 0.9686	Train accuracy: 99.2069	Val loss: 1.0240	Val acc: 98.1908	Best val epoch: 104
+Epoch [151]:	Train loss: 0.9597	Train accuracy: 99.2083	Val loss: 1.0147	Val acc: 98.1908	Best val epoch: 104
+Epoch [152]:	Train loss: 0.9511	Train accuracy: 99.2083	Val loss: 1.0057	Val acc: 98.1908	Best val epoch: 104
+Epoch [153]:	Train loss: 0.9427	Train accuracy: 99.2069	Val loss: 0.9967	Val acc: 98.1908	Best val epoch: 104
+Epoch [154]:	Train loss: 0.9344	Train accuracy: 99.2069	Val loss: 0.9880	Val acc: 98.1908	Best val epoch: 104
+Epoch [155]:	Train loss: 0.9261	Train accuracy: 99.2083	Val loss: 0.9792	Val acc: 98.1908	Best val epoch: 104
+Epoch [156]:	Train loss: 0.9179	Train accuracy: 99.2083	Val loss: 0.9707	Val acc: 98.1908	Best val epoch: 104
+Epoch [157]:	Train loss: 0.9102	Train accuracy: 99.2069	Val loss: 0.9622	Val acc: 98.1908	Best val epoch: 104
+Epoch [158]:	Train loss: 0.9023	Train accuracy: 99.2056	Val loss: 0.9537	Val acc: 98.1908	Best val epoch: 104
+Epoch [159]:	Train loss: 0.8942	Train accuracy: 99.2069	Val loss: 0.9455	Val acc: 98.1908	Best val epoch: 104
+Epoch [160]:	Train loss: 0.8868	Train accuracy: 99.2069	Val loss: 0.9374	Val acc: 98.1908	Best val epoch: 104
+Epoch [161]:	Train loss: 0.8790	Train accuracy: 99.2056	Val loss: 0.9294	Val acc: 98.1908	Best val epoch: 104
+Epoch [162]:	Train loss: 0.8716	Train accuracy: 99.2083	Val loss: 0.9214	Val acc: 98.1908	Best val epoch: 104
+Epoch [163]:	Train loss: 0.8643	Train accuracy: 99.2083	Val loss: 0.9136	Val acc: 98.1908	Best val epoch: 104
+Epoch [164]:	Train loss: 0.8570	Train accuracy: 99.2083	Val loss: 0.9059	Val acc: 98.1908	Best val epoch: 104
+Epoch [165]:	Train loss: 0.8498	Train accuracy: 99.2069	Val loss: 0.8983	Val acc: 98.1908	Best val epoch: 104
+Epoch [166]:	Train loss: 0.8427	Train accuracy: 99.2083	Val loss: 0.8907	Val acc: 98.1908	Best val epoch: 104
+Epoch [167]:	Train loss: 0.8358	Train accuracy: 99.2083	Val loss: 0.8834	Val acc: 98.1908	Best val epoch: 104
+Epoch [168]:	Train loss: 0.8289	Train accuracy: 99.2056	Val loss: 0.8761	Val acc: 98.1908	Best val epoch: 104
+Epoch [169]:	Train loss: 0.8221	Train accuracy: 99.2083	Val loss: 0.8688	Val acc: 98.1908	Best val epoch: 104
+Epoch [170]:	Train loss: 0.8153	Train accuracy: 99.2056	Val loss: 0.8617	Val acc: 98.1908	Best val epoch: 104
+Epoch [171]:	Train loss: 0.8087	Train accuracy: 99.2083	Val loss: 0.8547	Val acc: 98.1908	Best val epoch: 104
+Epoch [172]:	Train loss: 0.8022	Train accuracy: 99.3542	Val loss: 0.8478	Val acc: 98.1908	Best val epoch: 104
+Epoch [173]:	Train loss: 0.7958	Train accuracy: 99.3333	Val loss: 0.8409	Val acc: 98.1908	Best val epoch: 104
+Epoch [174]:	Train loss: 0.7894	Train accuracy: 99.2069	Val loss: 0.8341	Val acc: 98.1908	Best val epoch: 104
+Epoch [175]:	Train loss: 0.7831	Train accuracy: 99.2083	Val loss: 0.8275	Val acc: 98.1908	Best val epoch: 104
+New model best model at epoch 176
+Epoch [176]:	Train loss: 0.7770	Train accuracy: 99.5833	Val loss: 0.8208	Val acc: 98.8487	Best val epoch: 176
+Epoch [177]:	Train loss: 0.7708	Train accuracy: 99.6667	Val loss: 0.8143	Val acc: 98.8487	Best val epoch: 176
+Epoch [178]:	Train loss: 0.7648	Train accuracy: 99.6639	Val loss: 0.8079	Val acc: 98.8487	Best val epoch: 176
+Epoch [179]:	Train loss: 0.7587	Train accuracy: 99.6667	Val loss: 0.8016	Val acc: 98.8487	Best val epoch: 176
+Epoch [180]:	Train loss: 0.7530	Train accuracy: 99.3514	Val loss: 0.7954	Val acc: 98.8487	Best val epoch: 176
+Epoch [181]:	Train loss: 0.7472	Train accuracy: 99.6667	Val loss: 0.7891	Val acc: 98.8487	Best val epoch: 176
+Epoch [182]:	Train loss: 0.7414	Train accuracy: 99.6667	Val loss: 0.7830	Val acc: 98.8487	Best val epoch: 176
+Epoch [183]:	Train loss: 0.7357	Train accuracy: 99.6653	Val loss: 0.7770	Val acc: 98.8487	Best val epoch: 176
+Epoch [184]:	Train loss: 0.7302	Train accuracy: 99.6667	Val loss: 0.7709	Val acc: 98.8487	Best val epoch: 176
+Epoch [185]:	Train loss: 0.7247	Train accuracy: 99.6653	Val loss: 0.7651	Val acc: 98.8487	Best val epoch: 176
+Epoch [186]:	Train loss: 0.7191	Train accuracy: 99.6667	Val loss: 0.7594	Val acc: 98.8487	Best val epoch: 176
+Epoch [187]:	Train loss: 0.7138	Train accuracy: 99.6667	Val loss: 0.7536	Val acc: 98.8487	Best val epoch: 176
+Epoch [188]:	Train loss: 0.7084	Train accuracy: 99.6667	Val loss: 0.7479	Val acc: 98.8487	Best val epoch: 176
+Epoch [189]:	Train loss: 0.7033	Train accuracy: 99.6667	Val loss: 0.7424	Val acc: 98.8487	Best val epoch: 176
+Epoch [190]:	Train loss: 0.6980	Train accuracy: 99.6667	Val loss: 0.7368	Val acc: 98.8487	Best val epoch: 176
+Epoch [191]:	Train loss: 0.6929	Train accuracy: 99.6667	Val loss: 0.7314	Val acc: 98.8487	Best val epoch: 176
+Epoch [192]:	Train loss: 0.6880	Train accuracy: 99.6639	Val loss: 0.7260	Val acc: 98.8487	Best val epoch: 176
+Epoch [193]:	Train loss: 0.6828	Train accuracy: 99.6667	Val loss: 0.7206	Val acc: 98.8487	Best val epoch: 176
+Epoch [194]:	Train loss: 0.6779	Train accuracy: 99.6667	Val loss: 0.7153	Val acc: 98.8487	Best val epoch: 176
+Epoch [195]:	Train loss: 0.6731	Train accuracy: 99.6667	Val loss: 0.7101	Val acc: 98.8487	Best val epoch: 176
+Epoch [196]:	Train loss: 0.6683	Train accuracy: 99.6667	Val loss: 0.7050	Val acc: 98.8487	Best val epoch: 176
+Epoch [197]:	Train loss: 0.6636	Train accuracy: 99.6667	Val loss: 0.7000	Val acc: 98.8487	Best val epoch: 176
+Epoch [198]:	Train loss: 0.6589	Train accuracy: 99.6653	Val loss: 0.6949	Val acc: 98.8487	Best val epoch: 176
+New model best model at epoch 199
+Epoch [199]:	Train loss: 0.6541	Train accuracy: 99.9375	Val loss: 0.6900	Val acc: 100.0000	Best val epoch: 199
+Epoch [200]:	Train loss: 0.6497	Train accuracy: 100.0000	Val loss: 0.6852	Val acc: 100.0000	Best val epoch: 199
+Epoch [201]:	Train loss: 0.6451	Train accuracy: 100.0000	Val loss: 0.6803	Val acc: 100.0000	Best val epoch: 199
+Epoch [202]:	Train loss: 0.6406	Train accuracy: 100.0000	Val loss: 0.6755	Val acc: 100.0000	Best val epoch: 199
+Epoch [203]:	Train loss: 0.6362	Train accuracy: 100.0000	Val loss: 0.6707	Val acc: 100.0000	Best val epoch: 199
+Epoch [204]:	Train loss: 0.6318	Train accuracy: 100.0000	Val loss: 0.6660	Val acc: 100.0000	Best val epoch: 199
+Epoch [205]:	Train loss: 0.6275	Train accuracy: 100.0000	Val loss: 0.6614	Val acc: 100.0000	Best val epoch: 199
+Epoch [206]:	Train loss: 0.6232	Train accuracy: 100.0000	Val loss: 0.6569	Val acc: 100.0000	Best val epoch: 199
+Epoch [207]:	Train loss: 0.6190	Train accuracy: 100.0000	Val loss: 0.6524	Val acc: 100.0000	Best val epoch: 199
+Epoch [208]:	Train loss: 0.6149	Train accuracy: 100.0000	Val loss: 0.6479	Val acc: 100.0000	Best val epoch: 199
+Epoch [209]:	Train loss: 0.6107	Train accuracy: 100.0000	Val loss: 0.6436	Val acc: 100.0000	Best val epoch: 199
+Epoch [210]:	Train loss: 0.6067	Train accuracy: 100.0000	Val loss: 0.6392	Val acc: 100.0000	Best val epoch: 199
+Epoch [211]:	Train loss: 0.6026	Train accuracy: 100.0000	Val loss: 0.6348	Val acc: 100.0000	Best val epoch: 199
+Epoch [212]:	Train loss: 0.5985	Train accuracy: 100.0000	Val loss: 0.6306	Val acc: 100.0000	Best val epoch: 199
+Epoch [213]:	Train loss: 0.5947	Train accuracy: 100.0000	Val loss: 0.6264	Val acc: 100.0000	Best val epoch: 199
+Epoch [214]:	Train loss: 0.5907	Train accuracy: 100.0000	Val loss: 0.6222	Val acc: 100.0000	Best val epoch: 199
+Epoch [215]:	Train loss: 0.5869	Train accuracy: 100.0000	Val loss: 0.6182	Val acc: 100.0000	Best val epoch: 199
+Epoch [216]:	Train loss: 0.5831	Train accuracy: 100.0000	Val loss: 0.6140	Val acc: 100.0000	Best val epoch: 199
+Epoch [217]:	Train loss: 0.5794	Train accuracy: 100.0000	Val loss: 0.6100	Val acc: 100.0000	Best val epoch: 199
+Epoch [218]:	Train loss: 0.5757	Train accuracy: 100.0000	Val loss: 0.6060	Val acc: 100.0000	Best val epoch: 199
+Epoch [219]:	Train loss: 0.5720	Train accuracy: 100.0000	Val loss: 0.6021	Val acc: 100.0000	Best val epoch: 199
+Epoch [220]:	Train loss: 0.5683	Train accuracy: 100.0000	Val loss: 0.5982	Val acc: 100.0000	Best val epoch: 199
+Epoch [221]:	Train loss: 0.5647	Train accuracy: 100.0000	Val loss: 0.5943	Val acc: 100.0000	Best val epoch: 199
+Epoch [222]:	Train loss: 0.5612	Train accuracy: 100.0000	Val loss: 0.5905	Val acc: 100.0000	Best val epoch: 199
+Epoch [223]:	Train loss: 0.5576	Train accuracy: 100.0000	Val loss: 0.5867	Val acc: 100.0000	Best val epoch: 199
+Epoch [224]:	Train loss: 0.5542	Train accuracy: 100.0000	Val loss: 0.5831	Val acc: 100.0000	Best val epoch: 199
+Epoch [225]:	Train loss: 0.5508	Train accuracy: 100.0000	Val loss: 0.5794	Val acc: 100.0000	Best val epoch: 199
+Epoch [226]:	Train loss: 0.5473	Train accuracy: 100.0000	Val loss: 0.5757	Val acc: 100.0000	Best val epoch: 199
+Epoch [227]:	Train loss: 0.5440	Train accuracy: 100.0000	Val loss: 0.5721	Val acc: 100.0000	Best val epoch: 199
+Epoch [228]:	Train loss: 0.5406	Train accuracy: 100.0000	Val loss: 0.5686	Val acc: 100.0000	Best val epoch: 199
+Epoch [229]:	Train loss: 0.5373	Train accuracy: 100.0000	Val loss: 0.5651	Val acc: 100.0000	Best val epoch: 199
+Epoch [230]:	Train loss: 0.5340	Train accuracy: 100.0000	Val loss: 0.5615	Val acc: 100.0000	Best val epoch: 199
+Epoch [231]:	Train loss: 0.5308	Train accuracy: 100.0000	Val loss: 0.5580	Val acc: 100.0000	Best val epoch: 199
+Epoch [232]:	Train loss: 0.5277	Train accuracy: 100.0000	Val loss: 0.5546	Val acc: 100.0000	Best val epoch: 199
+Epoch [233]:	Train loss: 0.5245	Train accuracy: 100.0000	Val loss: 0.5512	Val acc: 100.0000	Best val epoch: 199
+Epoch [234]:	Train loss: 0.5214	Train accuracy: 100.0000	Val loss: 0.5479	Val acc: 100.0000	Best val epoch: 199
+Epoch [235]:	Train loss: 0.5183	Train accuracy: 100.0000	Val loss: 0.5446	Val acc: 100.0000	Best val epoch: 199
+Epoch [236]:	Train loss: 0.5153	Train accuracy: 100.0000	Val loss: 0.5413	Val acc: 100.0000	Best val epoch: 199
+Epoch [237]:	Train loss: 0.5122	Train accuracy: 100.0000	Val loss: 0.5381	Val acc: 100.0000	Best val epoch: 199
+Epoch [238]:	Train loss: 0.5092	Train accuracy: 100.0000	Val loss: 0.5348	Val acc: 100.0000	Best val epoch: 199
+Epoch [239]:	Train loss: 0.5062	Train accuracy: 100.0000	Val loss: 0.5318	Val acc: 100.0000	Best val epoch: 199
+Epoch [240]:	Train loss: 0.5033	Train accuracy: 100.0000	Val loss: 0.5286	Val acc: 100.0000	Best val epoch: 199
+Epoch [241]:	Train loss: 0.5004	Train accuracy: 100.0000	Val loss: 0.5254	Val acc: 100.0000	Best val epoch: 199
+Epoch [242]:	Train loss: 0.4975	Train accuracy: 100.0000	Val loss: 0.5223	Val acc: 100.0000	Best val epoch: 199
+Epoch [243]:	Train loss: 0.4947	Train accuracy: 100.0000	Val loss: 0.5194	Val acc: 100.0000	Best val epoch: 199
+Epoch [244]:	Train loss: 0.4919	Train accuracy: 100.0000	Val loss: 0.5164	Val acc: 100.0000	Best val epoch: 199
+Epoch [245]:	Train loss: 0.4890	Train accuracy: 100.0000	Val loss: 0.5133	Val acc: 100.0000	Best val epoch: 199
+Epoch [246]:	Train loss: 0.4863	Train accuracy: 100.0000	Val loss: 0.5104	Val acc: 100.0000	Best val epoch: 199
+Epoch [247]:	Train loss: 0.4836	Train accuracy: 100.0000	Val loss: 0.5075	Val acc: 100.0000	Best val epoch: 199
+Epoch [248]:	Train loss: 0.4808	Train accuracy: 100.0000	Val loss: 0.5045	Val acc: 100.0000	Best val epoch: 199
+Epoch [249]:	Train loss: 0.4782	Train accuracy: 100.0000	Val loss: 0.5017	Val acc: 100.0000	Best val epoch: 199
+Epoch [250]:	Train loss: 0.4755	Train accuracy: 100.0000	Val loss: 0.4989	Val acc: 100.0000	Best val epoch: 199
+Epoch [251]:	Train loss: 0.4729	Train accuracy: 100.0000	Val loss: 0.4960	Val acc: 100.0000	Best val epoch: 199
+Epoch [252]:	Train loss: 0.4703	Train accuracy: 100.0000	Val loss: 0.4933	Val acc: 100.0000	Best val epoch: 199
+Epoch [253]:	Train loss: 0.4678	Train accuracy: 100.0000	Val loss: 0.4905	Val acc: 100.0000	Best val epoch: 199
+Epoch [254]:	Train loss: 0.4652	Train accuracy: 100.0000	Val loss: 0.4878	Val acc: 100.0000	Best val epoch: 199
+Epoch [255]:	Train loss: 0.4627	Train accuracy: 100.0000	Val loss: 0.4850	Val acc: 100.0000	Best val epoch: 199
+Epoch [256]:	Train loss: 0.4602	Train accuracy: 100.0000	Val loss: 0.4824	Val acc: 100.0000	Best val epoch: 199
+Epoch [257]:	Train loss: 0.4577	Train accuracy: 100.0000	Val loss: 0.4797	Val acc: 100.0000	Best val epoch: 199
+Epoch [258]:	Train loss: 0.4552	Train accuracy: 100.0000	Val loss: 0.4770	Val acc: 100.0000	Best val epoch: 199
+Epoch [259]:	Train loss: 0.4528	Train accuracy: 100.0000	Val loss: 0.4745	Val acc: 100.0000	Best val epoch: 199
+Epoch [260]:	Train loss: 0.4505	Train accuracy: 100.0000	Val loss: 0.4720	Val acc: 100.0000	Best val epoch: 199
+Epoch [261]:	Train loss: 0.4481	Train accuracy: 100.0000	Val loss: 0.4694	Val acc: 100.0000	Best val epoch: 199
+Epoch [262]:	Train loss: 0.4457	Train accuracy: 100.0000	Val loss: 0.4668	Val acc: 100.0000	Best val epoch: 199
+Epoch [263]:	Train loss: 0.4434	Train accuracy: 100.0000	Val loss: 0.4644	Val acc: 100.0000	Best val epoch: 199
+Epoch [264]:	Train loss: 0.4411	Train accuracy: 100.0000	Val loss: 0.4618	Val acc: 100.0000	Best val epoch: 199
+Epoch [265]:	Train loss: 0.4388	Train accuracy: 100.0000	Val loss: 0.4595	Val acc: 100.0000	Best val epoch: 199
+Epoch [266]:	Train loss: 0.4365	Train accuracy: 100.0000	Val loss: 0.4570	Val acc: 100.0000	Best val epoch: 199
+Epoch [267]:	Train loss: 0.4343	Train accuracy: 100.0000	Val loss: 0.4546	Val acc: 100.0000	Best val epoch: 199
+Epoch [268]:	Train loss: 0.4320	Train accuracy: 100.0000	Val loss: 0.4522	Val acc: 100.0000	Best val epoch: 199
+Epoch [269]:	Train loss: 0.4298	Train accuracy: 100.0000	Val loss: 0.4498	Val acc: 100.0000	Best val epoch: 199
+Epoch [270]:	Train loss: 0.4275	Train accuracy: 100.0000	Val loss: 0.4475	Val acc: 100.0000	Best val epoch: 199
+Epoch [271]:	Train loss: 0.4254	Train accuracy: 100.0000	Val loss: 0.4452	Val acc: 100.0000	Best val epoch: 199
+Epoch [272]:	Train loss: 0.4233	Train accuracy: 100.0000	Val loss: 0.4428	Val acc: 100.0000	Best val epoch: 199
+Epoch [273]:	Train loss: 0.4212	Train accuracy: 100.0000	Val loss: 0.4406	Val acc: 100.0000	Best val epoch: 199
+Epoch [274]:	Train loss: 0.4191	Train accuracy: 100.0000	Val loss: 0.4384	Val acc: 100.0000	Best val epoch: 199
+Epoch [275]:	Train loss: 0.4170	Train accuracy: 100.0000	Val loss: 0.4361	Val acc: 100.0000	Best val epoch: 199
+Epoch [276]:	Train loss: 0.4149	Train accuracy: 100.0000	Val loss: 0.4339	Val acc: 100.0000	Best val epoch: 199
+Epoch [277]:	Train loss: 0.4129	Train accuracy: 100.0000	Val loss: 0.4317	Val acc: 100.0000	Best val epoch: 199
+Epoch [278]:	Train loss: 0.4109	Train accuracy: 100.0000	Val loss: 0.4296	Val acc: 100.0000	Best val epoch: 199
+Epoch [279]:	Train loss: 0.4088	Train accuracy: 100.0000	Val loss: 0.4274	Val acc: 100.0000	Best val epoch: 199
+Epoch [280]:	Train loss: 0.4068	Train accuracy: 100.0000	Val loss: 0.4253	Val acc: 100.0000	Best val epoch: 199
+Epoch [281]:	Train loss: 0.4048	Train accuracy: 100.0000	Val loss: 0.4232	Val acc: 100.0000	Best val epoch: 199
+Epoch [282]:	Train loss: 0.4029	Train accuracy: 100.0000	Val loss: 0.4211	Val acc: 100.0000	Best val epoch: 199
+Epoch [283]:	Train loss: 0.4010	Train accuracy: 100.0000	Val loss: 0.4190	Val acc: 100.0000	Best val epoch: 199
+Epoch [284]:	Train loss: 0.3990	Train accuracy: 100.0000	Val loss: 0.4169	Val acc: 100.0000	Best val epoch: 199
+Epoch [285]:	Train loss: 0.3972	Train accuracy: 100.0000	Val loss: 0.4149	Val acc: 100.0000	Best val epoch: 199
+Epoch [286]:	Train loss: 0.3952	Train accuracy: 100.0000	Val loss: 0.4129	Val acc: 100.0000	Best val epoch: 199
+Epoch [287]:	Train loss: 0.3934	Train accuracy: 100.0000	Val loss: 0.4108	Val acc: 100.0000	Best val epoch: 199
+Epoch [288]:	Train loss: 0.3915	Train accuracy: 100.0000	Val loss: 0.4089	Val acc: 100.0000	Best val epoch: 199
+Epoch [289]:	Train loss: 0.3896	Train accuracy: 100.0000	Val loss: 0.4069	Val acc: 100.0000	Best val epoch: 199
+Epoch [290]:	Train loss: 0.3878	Train accuracy: 100.0000	Val loss: 0.4050	Val acc: 100.0000	Best val epoch: 199
+Epoch [291]:	Train loss: 0.3860	Train accuracy: 100.0000	Val loss: 0.4030	Val acc: 100.0000	Best val epoch: 199
+Epoch [292]:	Train loss: 0.3842	Train accuracy: 100.0000	Val loss: 0.4011	Val acc: 100.0000	Best val epoch: 199
+Epoch [293]:	Train loss: 0.3825	Train accuracy: 100.0000	Val loss: 0.3992	Val acc: 100.0000	Best val epoch: 199
+Epoch [294]:	Train loss: 0.3807	Train accuracy: 100.0000	Val loss: 0.3973	Val acc: 100.0000	Best val epoch: 199
+Epoch [295]:	Train loss: 0.3789	Train accuracy: 100.0000	Val loss: 0.3954	Val acc: 100.0000	Best val epoch: 199
+Epoch [296]:	Train loss: 0.3773	Train accuracy: 100.0000	Val loss: 0.3936	Val acc: 100.0000	Best val epoch: 199
+Epoch [297]:	Train loss: 0.3755	Train accuracy: 100.0000	Val loss: 0.3918	Val acc: 100.0000	Best val epoch: 199
+Epoch [298]:	Train loss: 0.3738	Train accuracy: 100.0000	Val loss: 0.3900	Val acc: 100.0000	Best val epoch: 199
+Epoch [299]:	Train loss: 0.3721	Train accuracy: 100.0000	Val loss: 0.3881	Val acc: 100.0000	Best val epoch: 199
