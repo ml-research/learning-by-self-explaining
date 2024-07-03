@@ -3,9 +3,7 @@ Repository for ```Learning by Self-Explaining``` paper.
 
 ![Learning by Self-Explaining (LSX)](figures/main_fig.png "Learning by Self-Explaining")
 
-This repo contains the code for both the CNN-LSX and NeSy-LSX experiments.
-
-Concerning the VLM-LSX instantiation we refer to the following repo and corresponding paper: [ILLUME](https://github.com/ml-research/ILLUME).
+This repo contains the code for both the CNN-LSX, NeSy-LSX and VLM-LSX experiments.
 
 Disclaimer: this repository is an agglomerate of multiple repositories and from several projects. 
 It is therefore missing a global structure and might be buggy in terms of requirements etc (please don't hate me). 
